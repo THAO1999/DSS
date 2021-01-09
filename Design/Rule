@@ -1,0 +1,35 @@
+Project: Giao Dịch Thực Tập Sinh
+1.0 Báo cáo
+- Thứ 3 và Thứ 7 hàng tuần sẽ báo cáo kết quả làm việc
+1.1 Commit
+-Comment format: 
+                 Project: %s
+                 Content:
+                   -content1[tên chức năng] 
+                   -content2[tên chức năng]
+       ví dụ: Project 50%
+              Content :
+                    -Tạo chức năng đăng nhập
+       
+- Quy tắc commit
+               1.Cần sửa code: Pull code sau đó mới sửa code
+               2.Cần commit code: 1.Chọn những file cần commit 
+                                  2.Viết comment.
+                                  3.Khi pull về thì có 2 TH xảy ra:
+                                                            - TH1: Không conflict=> push bình thường
+                                                            - TH2: Có conflict. Xác định file conflict.
+                                                                      - Đối với số lượng conflict ít mà không phức tạp thì có thể tự merge 1 mình. 
+                                                                      - Nếu số lượng conflict nhiều và phức tạp thì xem log và gọi người đã sửa file này trước đó, cả 2 người cùng merge code. 
+                                                                      - Merge xong code, commit lại các file vừa merge rồi  Pull về
+                                                                      - Nếu hết conflict thì push code, nếu tiếp tục conflict thì thực hiện merge code như ở trên.
+                                                                      
+ 1.2 Issues
+- Nếu có vấn đề tạo isues rồi gắn cho Tạ Minh Thao để hỏi
+ 
+
+ 1.3 Branch
+- Tạo branch
+- Code trên nhánh của mình, không đụng chạm tới các nhánh khác
+- Code xong thì tạo Pull Request  
+- Găn Tạ Minh Thao vào review code
+- Việc Merge code sẽ do Tạ Minh Thao
